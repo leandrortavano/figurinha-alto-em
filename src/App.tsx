@@ -5,7 +5,7 @@ import HeaderImg from './assets/images/HeaderImg.jpg';
 
 function App() {
   const [frase, setFrase] = useState<string>("");
-  
+
 
   const myExport = useRef<any>();
 
@@ -20,12 +20,15 @@ function App() {
         </form>
 
 
-        <div className="etiqueta" ref={myExport}>
-          <img src={HeaderImg} />
-          <div className="etiqueta-texto">{frase ? frase.toUpperCase() : 'GORDURA SATURADA'}</div>
-        </div>
+        <div className="wrapalletiqueta" ref={myExport}>
 
-        <div className="download" onClick={() => exportComponentAsPNG(myExport, { fileName: "alto-em-generator", html2CanvasOptions: {backgroundColor: null }})}>BAIXAR SUA FIGURINHA</div>
+          <div className="etiqueta" >
+            <img src={HeaderImg} />
+            <div className="etiqueta-texto">{frase ? frase.toUpperCase() : 'GORDURA SATURADA'}</div>
+          </div>
+        </div>
+        <div className="download" onClick={() => exportComponentAsPNG(myExport, { fileName: "alto-em-generator", html2CanvasOptions: { backgroundColor: null } })}>BAIXAR SUA FIGURINHA</div>
+
 
       </div>
 

@@ -28,11 +28,15 @@ p {
   font-family: "Poppins", serif !important;
 }
 
+.wrapalletiqueta {
+  padding: 40px 0px;
+}
+
 .etiqueta {
   text-align: center;
   border: 5px solid #323232;
   border-radius: 17px;
-  padding: 50px 50px;
+  padding: 10px 10px;
   margin: 24px 0px;
   font-weight: bold;
   max-width: 278px;
