@@ -5,7 +5,7 @@ import HeaderImg from './assets/images/HeaderImg.jpg';
 
 function App() {
   const [frase, setFrase] = useState<string>("");
-  let nome = "fileName";
+  
 
   const myExport = useRef<any>();
 
