@@ -25,7 +25,7 @@ function App() {
           <div className="etiqueta-texto">{frase ? frase.toUpperCase() : 'GORDURA SATURADA'}</div>
         </div>
 
-        <div className="download" onClick={() => exportComponentAsPNG(myExport, { fileName: "nome", html2CanvasOptions: {backgroundColor: null }})}>BAIXAR SUA FIGURINHA</div>
+        <div className="download" onClick={() => exportComponentAsPNG(myExport, { fileName: "alto-em-generator", html2CanvasOptions: {backgroundColor: null }})}>BAIXAR SUA FIGURINHA</div>
 
       </div>
 
