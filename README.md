@@ -18,4 +18,4 @@ Alto em Fake News
 
 A figurinha gerada pode ser baixada como imagem png e, importando no WhatsApp, pode ser enviada com uma figurinha do aplicativo.
 
-Visite ..... e crie a sua.
+Visite (https://gerador-de-alto-em.vercel.app/) e crie a sua.
